@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+
+}
+
+.c1{
+    background-color: aquamarine;
+    width: 25%;
+    position: absolute;
+    /* default position property will be static */
+    left: 200px;
+    top: 300px;
+}
+
+.c2{
+    background-color: brown;
+    width: 40%;
+
+}

@@ -1,0 +1,12 @@
+ANgular commands
+
+ng new projectName  -- for starting a new project 
+
+npm i --force       -- if showing any warning during project installation
+
+ng serve or ng s    -- to run 
+
+ng s -o       	    -- to run and open in a browser
+
+
+ng g c componentName  --  to create new component

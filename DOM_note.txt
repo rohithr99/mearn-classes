@@ -1,0 +1,61 @@
+DOM - Document Object Model
+
+--------------------------
+
+DOM methods - used to access elements from dom
+----
+
+document.getElementsByTagname('');
+document.getElementById('id');
+document.getElementByClassName('className');
+document.querySelector('tagName/#id/.classname'); --- only select single elements
+document.querySelectorAll('tagname/#id/.classname'); -- can select multiple elements
+
+-------------------------
+
+Local Storage
+------------
+
+-permanent data storage
+-low storage 
+
+
+c -create  - localStorage.setItem()
+r - read   - localStorage.getItem()
+u - update - localStorage.setItem()
+d - delete - localStorage.removeItem()
+
+
+maybe the frontend & backend will be different languages . so we use 
+xml / json
+
+for different technologies we can  easy translate 
+
+
+json -- commonly used language
+
+to convert javascript to JSON we use the following method
+js - json JSON.stringify()
+
+to convert JSON to javascript  we use the following method
+json - js JSON.parse()
+
+
+difference between javascript object and json
+
+javascript
+---------
+
+{
+	name:"anu",
+	age:24
+}
+
+JSON
+----
+{
+	"name":"anu",
+	"age":24
+}
+
+in json we must use double quotes

@@ -1,0 +1,25 @@
+.c{
+    width: 30%;
+    height: 398px; 
+    background-color: black;
+    color: white;
+    float: left;
+    border: white 15px solid;
+    padding: 10px;
+    
+    
+}
+h1, h2{
+    text-align: center;
+}
+
+img{
+    margin-left: 40%;
+}
+
+.a1{
+    text-align: center;
+}
+button{
+    margin-left: 49%;
+}

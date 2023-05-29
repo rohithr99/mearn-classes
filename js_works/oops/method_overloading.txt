@@ -1,0 +1,25 @@
+pOlymorphism
+
+
+method overloading means same method name with different number of arguments
+
+class A{
+	method(n){
+	this.n = n;
+	console.log("first method",n);
+	}
+	
+	method(){
+	console.log("second method");
+	}
+}
+
+obj = new A();
+
+obj.method();
+obj.method(4);
+
+
+the output will be second method only because javascript does not support method overloading 
+
+

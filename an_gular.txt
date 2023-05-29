@@ -1,0 +1,124 @@
+structure in a angular project 
+
+-------
+
+
+.angular folder -- connection between angular cli and project  .. config files
+
+.vscode         -- configurations between vscode and angular cli
+
+browserlistsrc -- configuration between browser and project
+
+.editirconfig  -- config btwn editor and project 
+
+.gitignore    -- add files to ignore while pushing to git 
+
+angular.json  -- basic functions and libraries of angular project
+
+karma.conf.js   -- a tool used for testing ..  
+
+package.json    -- for managing 3rd party libraries
+
+README.md 	-- 
+
+tsconfig	-- configuration between typescript and project  -- 3 files
+
+
+
+
+imp
+----
+
+node_modules	-- packages of node.... 
+
+for installing node_modules folder separately 
+
+npm i
+
+src folder
+----------
+
+style.css    -  for applying styles globally.. add styles here
+
+assets       - folder is used to add media files
+
+
+
+
+
+Basics of Angular
+----------------
+
+usually html css js is used 
+
+
+but in angular html css ts(typescript) is used
+
+ts 	-  superset of js 
+	-  strictly typed language
+
+run 	- angular_cli
+
+output 	- browser 
+
+inside browser there is only engine for html css and js
+
+so while showing output in browser .. the browser will automatically convert typescript to javascript. 
+-----this process is known as transpiling
+
+while creating an angular project there are ....
+
+project
+  - root module (app.module.ts)
+	-root component   ( component means html page or html session)
+		-component1 ( these components we creating comes under root component.
+		-component2 
+
+
+
+component - html file, css file and ts file
+
+app.component.spec.ts   -- we dont need this file.. it is used for testing
+
+
+
+Redirection in Angular
+----------------------
+
+link - href / routerlink
+
+method - navigateByUrl() - used to redirect to other pages
+class - Router
+module - AppRoutingModule
+
+package - folder - contain many number of files - collection of modules
+module	- files - contain collection of classes
+class	- contain collection of methods
+
+
+Data Binding in Angular
+-----------------------
+
+html - ts 
+----   --
+view - component
+
+1.one way data Binding 
+
+   1.1 -component to view 
+	1.1.1 - string interpollation {{}}
+	1.1.2 - property binding    [propertyName] = "value"
+
+   1.2 - view to component
+	1.2.1 - event binding (eventName) = 'methodName()'   //event without any data -- ex. click
+	1.2.2 - $event Binding (eventName = 'methodName($event)'  -- ex.  change 
+	1.2.3 - event binding with template rendering variable (event) = 'method(templateRenderingVariable)
+
+2. two way data binding
+
+
+life cycle blocks of angular components
+_______________________________________
+constructor --> ngOnInit --> other methods
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1 class="text-center bg-success">After School Club Registration Form</h1>
+    <form class=" w-25 container mt-3 pt-3 bg-secondary">
+        <label for="name" class="fs-4">Student's Name</label> <br>
+        <input class="form-control border-danger" type="text" placeholder="First" id="name">
+        <input class="form-control mt-2 border-danger" type="text" placeholder="Last">
+        <br>
+         <br>
+         <label for="dob">Student's Birth Date</label> <br>
+         <input class="form-control w-10 border-danger" type="date" id="dob">
+         <br>
+         <br>
+         <label for="">Student's Grade</label>
+         <br>
+         <select name="" id="">
+            <option value="">Kindergarden</option>
+            <option value="">L.P</option>
+            <option value="">U.P</option>
+            <option value="">High School</option>
+         </select>
+         <!-- <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kindergarden
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">L.P</button></li>
+              <li><button class="dropdown-item" type="button">U.P</button></li>
+              <li><button class="dropdown-item" type="button">High School</button></li>
+            </ul>
+          </div> -->
+          
+
+         <br>
+         <br>
+         <label for="">What sessions will your student attend?</label>
+         <br>
+         <br>
+         <input type="radio" name="rad">
+         <label for="">full time before school care only</label> <br>
+         <input type="radio" name="rad">
+         <label for="">full time after school time only</label>
+         <br>
+         <input type="radio" name="rad" >
+         <label for="">full time before and after school care</label>
+         <br>
+         <input type="radio" name="rad">
+         <label for="">drop in before and /after school care</label>
+         <br>
+         <br>
+         <label for="needs">Please indicate any known allergies or special needs</label>
+         <br>
+         <textarea class="form-control border-danger" name="" id="needs" cols="45" rows="10"></textarea>
+         <br><br>
+         <label for="parentname">Parent/Guardian Name</label>
+         <br>
+         <input class="form-control border-danger" type="text" placeholder="First" id="parentname">
+         <input class="form-control mt-2 border-danger" type="text" placeholder="Last">
+         <br>
+         <br>
+         <label for="parentno">Parent/Guardian Number</label>
+         <br>
+         <input class="form-control border-danger" type="text" placeholder="##########" id="parentno">
+         <br>
+         <br>
+         <label for="addno">Additional Phone Number</label> <br>
+         <input class="form-control border-danger" type="text" placeholder="##########" id="addno">
+         <br><br>
+         <label for="mail">Email</label>
+         <br>
+         <input class="form-control border-danger" type="email" id="mail">
+         <br><br>
+
+
+    </form>
+
+    <h1 class="text-center bg-success mt-2 w-25 container">Authorized Pick Up List</h1>
+    <br>
+    <hr>
+    <form class="container w-25 bg-secondary " class="text-center" action="">
+        <label for="name2">Name</label><br>
+        <input class="form-control border-danger" type="text" placeholder="First" id="name2">
+        <input class="form-control mt-2 border-danger" type="text" placeholder="Last">
+        <br><br>
+        <label for="ph2">Phone</label>
+        <br>
+        <input class="form-control border-danger" type="text" placeholder="##########" id="ph2">
+        <br><br>
+        <label for="relation">Relation to student</label><br>
+        <input class="form-control border-danger" type="text" id="relation">
+        <br>
+        <hr>
+        <br>
+        <input class="form-control border-danger" type="text" placeholder="Add more">
+        <br>
+
+        <div class="text-center "><button  class="rounded-pill btn btn-lg btn-primary mb-5" >SEND</button></div>
+
+    </form>
+    
+</body>
+</html>

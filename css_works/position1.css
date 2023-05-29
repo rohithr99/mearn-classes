@@ -1,0 +1,18 @@
+.parent{
+    width: 60%;
+    height: 300px;
+    background-color: brown;
+    position: relative;
+    /*  if position is relative then we can move the child inside the parent .. and we must assign the child to absolute position also. else it is going to be relative with respect to window. */
+
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+.child{
+    width: 25%;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+}

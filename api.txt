@@ -1,0 +1,29 @@
+API - Apllication Programming Interface
+
+------------------------
+
+http - api protocol (rule)
+
+types
+-----
+
+C - post
+R - get
+U - put(complete updation) , patch(partial updation)
+D - delete
+
+
+status code
+
+1xx - information
+2xx - success
+3xx - redirection
+4xx - client error
+5xx - server error
+
+-success
+-fail
+
+
+fake apis
+--------

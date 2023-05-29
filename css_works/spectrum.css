@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+
+h1{
+    text-align: center;
+    margin-right: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+body{
+    background-color: black ;
+    color: white;
+}
+
+div{
+    width: 120px;
+    height: 160px;
+    background-color: black;
+    margin-top: 20px;
+
+}
+
+#div1{
+    margin-top: 36px;
+    margin-left: 445px;
+    background-color: gray ;
+}
+
+#div2{
+    margin-top:-160px;
+    margin-left: 583px;
+    background-color:darkslategray
+}
+
+#div3{
+    margin-left: 721px;
+    margin-top: -160px;
+    background-color:darkgreen;
+
+
+}
+#div4{
+    margin-top:-160px;
+    margin-left: 859px;
+    background-color: whitesmoke;
+}
+#div5{
+    margin-top: 50px;
+    margin-left: 306px;
+    background-color: cornflowerblue;
+}
+
+#div6{
+    margin-top: -160px;
+    margin-left: 445px;
+    background-color: darkcyan;
+
+}
+
+#div7{
+    margin-top: -160px;
+    margin-left: 583px;
+    background-color: darkslateblue;
+}
+
+#div8{
+    margin-top: -160px;
+    margin-left: 721px;
+    background-color:darkblue;
+}
+
+#div9{
+    margin-top: -160px;
+    margin-left: 859px;
+    background-color:darkviolet ;
+}
+
+#div10{
+    margin-top: -160px;
+    margin-left:998px;
+    background-color:darkmagenta;
+}
+
+#div11{
+    margin-top: 50px;
+    margin-left: 165px;
+    background-color: cadetblue;
+
+}
+#div12{
+    margin-top: -160px;
+    margin-left: 306px;
+    background-color: darkgoldenrod;
+}
+
+#div13{
+    margin-top: -160px;
+    margin-left: 445px;
+    background-color: cornsilk;
+}
+#div14{
+    margin-top: -160px;
+    margin-left: 583px;
+    background-color: darkred;
+}
+
+#div15{
+    margin-top: -160px;
+    margin-left: 721px;
+    background-color: deeppink;
+
+}
+
+#div16{
+    margin-top: -160px;
+    margin-left: 859px;
+    background-color:deepskyblue;
+
+
+}
+
+#div17{
+    margin-top: -160px;
+    margin-left: 998px;
+    background-color: plum;
+}
+
+#div18{
+    margin-top: -160px;
+    margin-left: 1137px;
+    background-color: springgreen;
+}
+

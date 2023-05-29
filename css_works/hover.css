@@ -1,0 +1,13 @@
+button{
+    background-color: white;
+    width: 10%;
+    height: 75px;
+    border-radius: 50px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+button:hover{
+    color:white;
+    background-color: blueviolet;
+}

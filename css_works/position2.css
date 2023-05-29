@@ -1,0 +1,22 @@
+/* position fixed and sticky */
+
+.c1{
+    width: 5%;
+    height: 100px;
+    background-color:crimson;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+
+    
+}
+.c2{
+    width: 5%;
+    height: 100px;
+    background-color: blue;
+    position: sticky;
+    /* if position is sticky then we must give the top value */
+    top: 0px;
+
+    left: 100px;
+}

@@ -1,0 +1,29 @@
+h1{
+    color:brown;
+}
+
+/* id selector */
+
+#d1{
+    color:blue;
+}
+
+/* class selector */
+
+.c1{
+    color:cadetblue;
+    text-align: center;
+
+}
+
+.c2{
+    background-color: black;
+}
+p{
+    color:brown;
+    font-size:larger;
+}
+
+div{
+    background-color: darkgray;
+}

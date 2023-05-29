@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+
+    background-image: url("./images/52689-4k-minimalist-wallpaper-3840x2160-158074284811280.jpg");
+
+    background-size: cover;
+}
+
+.row{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    /* background-color:aquamarine; */
+
+}
+
+.col{
+    height: 300px;
+    width: 20%;
+    position: absolute;
+    border: black 2px solid;
+    top: 100px;
+
+}
+
+.col-1{
+    background-color:rgba(0, 0, 255, 0.427);
+    left: 31px;
+
+}
+.col-2{
+    background-color:rgba(0, 100, 0, 0.493);
+    left: 410px;
+
+}
+.col-3{
+    background-color:rgba(100, 148, 237, 0.489);
+    left: 795px;
+
+}
+.col-4{
+    background-color:rgba(165, 42, 42, 0.521);
+    left: 1179px;
+
+}

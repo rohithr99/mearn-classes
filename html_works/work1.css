@@ -1,0 +1,17 @@
+h1, div , .cls1{
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    color:crimson;
+}
+
+.cls1{
+    font-size:larger;
+    color:firebrick
+}
+h1{
+    color: blueviolet;
+    background-color: black;
+}

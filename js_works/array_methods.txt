@@ -1,0 +1,11 @@
+1. map() -- if we need to output all array elements then we use map.
+2. sort()
+3.filter() -- if we need to output only a few array elements based on some condition then we use filter.
+4.find() - element as output
+5. reduce() - an element (last) / value
+6. reduceRight() - an element(first)
+7. some() - yes(true) or no(false) will be the output.
+8. forEach() - for each method doesn't have inbuilt return . so we need to console the output inside forEach().
+9. includes() - true / false (used in single array) 
+10. flat() - 
+

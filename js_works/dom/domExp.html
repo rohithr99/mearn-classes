@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vaccine Eligibility Check</h1>
+    <div>
+        <input id = "input1" type="text" placeholder = "enter your age">
+        <button type="button" onclick = "ageCheck()">check</button>
+        <!-- we have to give the button type="button" -->
+        <!-- event = "function()" -->
+    </div>
+</body>
+
+<script>
+    function ageCheck(){text
+        //age = parseInt((document.querySelector('#input1')).value); 
+        age = parseInt(input1.value); // input1.value is to get the value of user entered ...and parseInt is to convert a string to a number
+        age >= 18 ? alert("You are Eligible") : alert("You are not Eligible");  // alert method is to alert the user 
+    }
+</script>
+
+</html>

@@ -1,0 +1,51 @@
+div{
+    width: 10%;
+    height: 150px;
+    background-color: cornflowerblue;
+    margin-top: 200px;
+    margin-left: 200px;
+    transition: 1s ease-in-out;
+    animation:animatics 1s ease-in-out 1s infinite;
+
+}
+/* div:hover{
+    /* transform: rotate(25deg); */
+    /* transform: scale(1.5); */
+    /* transform: skew(10deg); */
+    /* transform: rotate(25deg) scale(1.5);
+} */ 
+div:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes animatics{
+    0%{
+        transform: rotate(20deg) scale(0.1);
+        background-color: cornflowerblue;
+    }
+    25%{
+        transform: rotate(40deg) scale(0.5);
+        background-color:darkcyan;
+
+    }
+    50%{
+        transform: rotate(80deg) scale(0.9);
+        background-color:cadetblue;
+    }
+    75%{
+        transform: rotate(150deg) scale(1.4);
+        background-color:aquamarine;
+    }
+    100%{
+        transform: rotate(200deg) scale(1.9);
+        background-color:darkseagreen;
+    }
+}
+
+h1{
+    color: cornflowerblue;
+}
+span{
+    color: crimson;
+}
